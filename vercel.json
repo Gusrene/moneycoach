@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install && npx prisma generate",
+  "env": {
+    "DATABASE_URL": "@database_url"
+  }
+}
